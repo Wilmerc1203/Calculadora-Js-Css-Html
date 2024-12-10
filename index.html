@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <form class="calculadora">
+        <div class="display"></div>
+            <button type="button" class="btn" onclick="deleteall()">ac</button>
+            <button type="button" class="btn" onclick="borrar()">de</button>
+            <button type="button" class="btn" onclick="insertar('/')">/</button>
+            <button type="button" class="btn" onclick="insertar('*')">*</button>
+            <button type="button" class="btn" onclick="insertar('7')">7</button>
+            <button type="button" class="btn" onclick="insertar('8')">8</button>
+            <button type="button" class="btn" onclick="insertar('9')">9</button>
+            <button type="button" class="btn" onclick="insertar('-')">-</button>
+            <button type="button" class="btn" onclick="insertar('4')">4</button>
+            <button type="button" class="btn" onclick="insertar('5')">5</button>
+            <button type="button" class="btn" onclick="insertar('6')">6</button>
+            <button type="button" class="btn" onclick="insertar('+')">+</button>
+            <button type="button" class="btn" onclick="insertar('1')">1</button>
+            <button type="button" class="btn" onclick="insertar('2')">2</button>
+            <button type="button" class="btn" onclick="insertar('3')">3</button>
+            <button type="button" class="igual" onclick="calcular()">=</button>
+            <button type="button"  class="cero" onclick="insertar('0')">0</button>
+            <button type="button"  class="punto" onclick="insertar('.')">.</button>
+    </form>
+    <script src="funciones.js"></script>
+        </body>
+        </html>
+</body>
+</html>
